@@ -1,11 +1,7 @@
-# godot-text-gradient-shader
-Allows you to add a gradient to text in godot (thereoetically other stuff too)
-
-
-(You would probably want to edit this shader since it is quite buggy...)
+# Horizontal and vertical gradients for Godot text
 
 ![Example](godot-gradient-shader.gif)
 
 ## How to use:
 
-Download the [text_gradient.shader](text_gradient.shader)  file, and add it to a material on the text label object in your game, adjust the paramaters of the shader if needed in the editor.
+Download [text_gradient.shader](text_gradient.shader), add it to a material on a text label object, and adjust the parameters of the shader as needed. Colors are multiplicative.
